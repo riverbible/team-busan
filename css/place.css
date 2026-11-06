@@ -1,0 +1,74 @@
+#place {
+    width: 100%;
+    max-width: 1400px;
+    margin: 50px auto;
+}
+
+.section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title p {
+    letter-spacing: 5px;
+    color: gray;
+}
+
+.section-title h2 {
+    font-size: 30px;
+}
+
+.section-title span {
+    color: gray;
+}
+
+.place-grid {
+text-align: center;
+    width: 1000px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+
+.place-card {
+    background-color: #ecf0f1fb;
+    border-radius: 20px;
+    padding: 20px;
+    min-height: 500px;
+}
+
+.img1, .img2, .img3 {
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.img1 {
+    background-image: url("../img/gamcheon.jpg");
+}
+
+.img2 {
+    background-image: url("../img/thebay.jpg");
+}
+
+.img3 {
+    background-image: url("../img/gwang.jpg");
+}
+
+.place-info {
+    padding: 20px 5px;
+    color: rgb(79, 95, 90);
+}
+
+.place-info h3 {
+    color: rgb(74, 114, 146);
+    font-size: 22px;
+    margin-bottom: 12px;
+}
